@@ -91,13 +91,11 @@ const HowToUse = () => {
                 Your authentication JSON file should follow this format:
               </p>
               <pre className="bg-accent-foreground p-4 rounded-lg overflow-x-auto">
-                {`
-                {
-                  "GITHUB_TOKEN": "your-github-personal-access-token",
-                  "REPO_OWNER": "your-github-username",
-                  "REPO_NAME": "your-repository-name"
-                }
-                `}
+                {`{
+"GITHUB_TOKEN": "your-github-personal-access-token",
+"REPO_OWNER": "your-github-username",
+"REPO_NAME": "your-repository-name"
+                }`}
               </pre>
               <ul className="mt-4 list-disc list-inside space-y-2 text-muted-foreground">
                 <li>
