@@ -95,12 +95,3 @@ npm run build
 
 This project is released under the [MIT License](LICENSE). Feel free to modify and customize it for your own use.
 
----
-
-## 💡 Future Enhancements (optional)
-
-Here are a few ideas for future improvements:
-
-- Support for other file types (e.g., images, markdown, etc.)
-- More flexible file limits (configurable max files and sizes)
-- Improved error handling and retry mechanism for failed uploads
