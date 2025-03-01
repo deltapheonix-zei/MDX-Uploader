@@ -95,7 +95,7 @@ const HowToUse = () => {
 "GITHUB_TOKEN": "your-github-personal-access-token",
 "REPO_OWNER": "your-github-username",
 "REPO_NAME": "your-repository-name"
-                }`}
+}`}
               </pre>
               <ul className="mt-4 list-disc list-inside space-y-2 text-muted-foreground">
                 <li>
