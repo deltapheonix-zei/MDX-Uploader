@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Softer Light Theme */
+    --rosewater: #d3e4fd;  /* Changed to soft blue */
+    --flamingo: #99d1db;   /* Changed to sky blue */
+    --pink: #85c1dc;       /* Changed to sapphire */
+    --mauve: #8caaee;      /* Changed to blue */
+    --red: #e78284;
+    --maroon: #ea999c;
+    --peach: #ef9f76;
+    --yellow: #e5c890;
+    --green: #a6d189;
+    --teal: #81c8be;
+    --sky: #99d1db;
+    --sapphire: #85c1dc;
+    --blue: #8caaee;
+    --lavender: #babbf1;
+
+    /* Softer background colors */
+    --text: #5c5f77;
+    --subtext1: #6c6f85;
+    --subtext0: #7c7f93;
+    --overlay2: #8c8fa1;
+    --overlay1: #9ca0b0;
+    --overlay0: #acb0be;
+    --surface2: #bcc0cc;
+    --surface1: #eff0f6;  /* Softer purple tint for cards */
+    --surface0: #EDE9FE;  /* Softer purple for surfaces */
+    --base: #FAFAFA;      /* Very soft base background */
+    --mantle: #f2f2f4;
+    --crust: #e9e9ec;
+
+    --border: var(--surface0);
+    --input: var(--surface0);
+    --ring: var(--blue);
+    --radius: 0.5rem;
+    --primary: var(--blue);
+  }
+
+  .dark {
+    /* Dark theme colors with blue as accent */
+    --rosewater: #d3e4fd;  /* Changed to soft blue */
+    --flamingo: #99d1db;   /* Changed to sky blue */
+    --pink: #85c1dc;       /* Changed to sapphire */
+    --mauve: #8caaee;      /* Changed to blue */
+    --red: #e78284;
+    --maroon: #ea999c;
+    --peach: #ef9f76;
+    --yellow: #e5c890;
+    --green: #a6d189;
+    --teal: #81c8be;
+    --sky: #99d1db;
+    --sapphire: #85c1dc;
+    --blue: #8caaee;
+    --lavender: #babbf1;
+
+    --text: #c6d0f5;
+    --subtext1: #b5bfe2;
+    --subtext0: #a5adce;
+    --overlay2: #949cbb;
+    --overlay1: #838ba7;
+    --overlay0: #737994;
+    --surface2: #626880;
+    --surface1: #51576d;
+    --surface0: #414559;
+    --base: #303446;
+    --mantle: #292c3c;
+    --crust: #232634;
+
+    --border: var(--surface0);
+    --input: var(--surface0);
+    --ring: var(--blue);
+    --primary: var(--blue);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
